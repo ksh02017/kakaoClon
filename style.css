@@ -1,0 +1,188 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 340px;
+    height: 760px;
+}
+.topBox {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 10px;
+    background-color: #FECE32;
+    height: 50px;
+}
+.topBox__library {
+    text-align: center;
+    font-weight: 800;
+}
+.searchBoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+}
+.searchBox {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 25px;
+    color: lightgrey;
+    padding: 8px;
+    border: 1px solid white;
+    box-shadow: 0px 2px 0px grey;
+    background-color: white;
+    width: 260px;
+    height: 28px;
+    position: absolute;
+}
+
+.bookOfTheDay {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.topImageWord {
+    display: flex;
+    justify-content: center;
+}
+.topImageWord__image {
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: pink;
+    margin-left: 30px;
+}
+#ddong {
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: pink;
+}
+.topImageWord__No {
+    margin: 5px 10px;
+}
+.topImageWord__No__1 {
+    font-weight: 600;
+    padding: 3px;
+}
+.topImageWord__No__2 {
+    font-weight: 400;
+    font-style: italic;
+    padding: 3px;
+    color: lightgrey;
+    font-size: 9pt;
+}
+.topImageWord__stars {
+    color: #FECE32;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.topImageWord__Journey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topImageWord__Journey__J, .topImageWord__Journey__B {
+    width: 60px;
+    height: 15px;
+    background-color: rgb(236, 232, 232);
+    padding: 2px;
+    color: black;
+    margin: 10px 5px;
+    font-size: 7pt;
+    text-align: center;
+    text-shadow: 0px 0.5px 0.5px white;
+    border-radius: 15px;
+}
+.topImageWord__Book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.topImageWord__Book__C {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FECE32;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.topImageWord__Book__BookNow {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;    
+    background-color: #0d0d0d;
+    border: 1px solid black;
+    font-size: 10pt;
+    color:white;
+    text-align: center;
+    vertical-align: middle;  
+    line-height: 30px;
+}
+.adventure {
+    display: flex;
+    justify-content: space-evenly;
+}
+.adventure__container__image {
+    width: 80px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: pink;
+    margin-top: 10px;
+}
+.adventure__container__icons {
+    color: #FECE32;
+    font-size: 7pt;
+    text-align: center;
+    margin-top: 4px;
+}
+#greystar {
+    color: lightgrey;
+}
+.img1 {
+    background-image: url(https://lh3.googleusercontent.com/proxy/cFmMAfIU56D9PtH5_epsFQti3fJfYSIRxlGn13Xfp1PLubYatnO9lrvTYLhKfotx628LejV3m1l0d8tKAi7O3_QwK8Ov2nni-A0sZxYipuARhVIZRCB6vH5o8qk6xLX4Csor7ArT_w4qbEP43azMwIHTqBEb9Ecp8VZJlwtupJQMN7B8GoUphPO5by-utt1aw2SXuqsIZ6ZtbX2nw8OTD4vMNb7cuzcM0RTWwot7kaq2Wc9hw3WkFKSu62WdhKf_fXF8txp5GPEN6zL6lNfNgPQkr4CGEsjz04eNk9OCfPCjZC4EISezTt-gyA);
+    background-size: cover;
+}
+.img2 {
+    background-image: url(https://image.yes24.com/Goods/2983292/L);
+    background-size: cover;
+}
+.img3 {
+    background-image: url(https://img.ridicdn.net/cover/1242000034/xxlarge);
+    background-size: cover;
+}
+
+.bottomImgWord {
+    display: flex;
+}
+
+.bottomImg {
+    width: 100px;
+    height: 150px;
+    background-image: url(https://pbs.twimg.com/profile_images/798463233774350336/KlHqUNgL.jpg); 
+    background-size: cover;
+    margin: 10px 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.bottomWord {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.bottomWord__1 {
+    font-size: 12pt;
+}
+.bottomWord__2 {
+    font-size: 5pt;
+    color: lightgray;
+}
